@@ -1,12 +1,16 @@
-# React + Vite
+### Final Project - WDD330 - BYU I
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GTRACK is a web application built that allows users to discover trending games, explore game genres, view developer and store information, and keep track of game details. It’s designed for gaming enthusiasts who want to stay updated with the latest trends and titles.
 
-Currently, two official plugins are available:
+## 🛠️ Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+| Technology        | Description |
+|-------------------|-------------|
+| JavaScript        | Logic, event handling, and data processing |
+| Third-party APIs  | Fetch game and creator data |
+| Styled-components | CSS-in-JS styling |
+| Vite              | Fast build tool for modern web projects |
+| JSON              | Dynamic data from APIs |
+| React             | Main library for building the UI |
+| LocalStorage      | Store user preferences locally |
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
