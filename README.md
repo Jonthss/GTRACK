@@ -1,4 +1,4 @@
-Final Project - WDD330 - BYU I
+### Final Project - WDD330 - BYU I
 
 GTRACK is a web application built that allows users to discover trending games, explore game genres, view developer and store information, and keep track of game details. It’s designed for gaming enthusiasts who want to stay updated with the latest trends and titles.
 
