@@ -1,6 +1,8 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
+import { BsStart } from 'react-icons/bs';
 
-const GameItem = () => {
+const GameItem = ({ gameItem }) => {
   return (
     <GameItemWrapper>
     </GameItemWrapper>

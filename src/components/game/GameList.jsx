@@ -1,14 +1,26 @@
 import styled from 'styled-components';
+import GameItem from './GameItem';
+import PropTypes from 'prop-types';
 
-const GameList = () => {
+const GameList = ( games, sliceValue = games.length) => {
   return (
     <GameListWrapper>
+      <div className='card-list'>
+        {
+          games.slice(0, sliceValue).map((game) => (
+            <GameItem key = { GameItem.id } gameItem = { item } />
+          ))
+        }
+      </div>
     </GameListWrapper>
   )
 }
 
 export default GameList;
 
-const GameListWrapper = styled.div`
-  
-`;
+GameList.propTypes = {
+  games: PropTypes.array,
+  sliceValue: PropTypes.number,
+};
+
+const GameListWrapper = styled.div``;
