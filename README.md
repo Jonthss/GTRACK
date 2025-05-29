@@ -14,3 +14,7 @@ GTRACK is a web application built that allows users to discover trending games, 
 | React             | Main library for building the UI |
 | LocalStorage      | Store user preferences locally |
 
+
+## LINK TO NETLIFY
+
+https://g-track.netlify.app
