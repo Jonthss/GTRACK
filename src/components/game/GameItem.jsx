@@ -102,7 +102,7 @@ const GameItemWrapper = styled.div`
       transition: var(--transition-default);
 
       &:hover{
-        background-color: var(--clr-green-normal);
+        background-color: var(--clr-pink-normal);
       }
     }
   }
