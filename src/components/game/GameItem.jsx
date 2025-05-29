@@ -4,6 +4,16 @@ import { BsStar } from 'react-icons/bs';
 import PropTypes from 'prop-types';
 import { StarRating } from '../common';
 
+const formatDate = (dateStr) => {
+  if (!dateStr) return 'N/A';
+  const date = new Date(dateStr);
+  return date.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  });
+};
+
 const GameItem = ({ gameItem }) => {
   return (
     <GameItemWrapper className='card'>
@@ -22,7 +32,7 @@ const GameItem = ({ gameItem }) => {
           <div className='details-group'>
             <div className='details-item d-flex align-items-center'>
               <p className='details-item-name fw-6'>Release Date: &nbsp;</p>
-              <p className='details-item-value'>{ gameItem?.released } </p>
+              <p className='details-item-value'>{ formatDate(gameItem?.released) } </p>
             </div>
             <div className='details-item d-flex align-items-center'>
               <p className='details-item-name fw-6'>Updated: &nbsp;</p>
@@ -36,6 +46,7 @@ const GameItem = ({ gameItem }) => {
   )
 }
 export default GameItem;
+
 
 GameItem.propTypes = {
   gameItem: PropTypes.object
