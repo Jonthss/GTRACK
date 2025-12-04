@@ -17,4 +17,4 @@ GTRACK is a web application built that allows users to discover trending games, 
 
 ## LINK TO NETLIFY
 
-https://g-track.netlify.app
+[https://g-track.netlify.app](https://final-projectwdd330.netlify.app/)
